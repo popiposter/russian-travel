@@ -6,4 +6,23 @@
   font-size: 72px;
   line-height: 76px;
   color: #ffffff;
+  text-align: start;
+  grid-area: title;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    white-space: normal;
+    padding: 0 16px 0;
+  }
 }
