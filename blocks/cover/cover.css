@@ -12,6 +12,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .cover::before {
@@ -28,7 +29,6 @@
   z-index: -1;
 }
 .cover:hover::before {
-  background-color: #2a2c2f;
   opacity: 0.8;
 }
 
