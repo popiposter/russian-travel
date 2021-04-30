@@ -1,0 +1,32 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.cover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.cover:hover::before {
+  background-color: #2a2c2f;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    padding: 0 48px;
+  }
+}
