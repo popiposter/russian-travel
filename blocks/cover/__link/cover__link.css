@@ -1,7 +1,6 @@
-.cover__text {
-  position: absolute;
+.cover__link {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
