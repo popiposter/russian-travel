@@ -12,7 +12,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
 }
 
 .cover::before {
